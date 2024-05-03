@@ -5,10 +5,10 @@ function secondHighest(arr) {
 			let len=arr.length;
 			
 			if(len === 1 ||  len === 0)  
-			return "-Infinity";
+			return -Infinity;
 			
 			if(checkSame(arr))
-			return "-Infinity";
+			return -Infinity;
 			
 			
 			let max1=Math.max(arr[0], arr[1]), max2=Math.min(arr[0], arr[1]);
