@@ -24,8 +24,19 @@ function secondHighest(arr) {
 			    }
 			}
 			
-			return String(max2); 
+			return max2; 
 
+		}
+
+        function checkSame(arr){
+		    let first = arr[0];
+		    
+		    for(let i=1; i<arr.length;i++){
+		        if(first !== arr[i])
+		        return false;
+		    }
+		    
+		    return true;
 		}
 
 		function Main() {
